@@ -13,6 +13,7 @@
 		8CA802C2213EA405001CADC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA802C1213EA405001CADC2 /* Assets.xcassets */; };
 		8CA802C5213EA405001CADC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA802C3213EA405001CADC2 /* LaunchScreen.storyboard */; };
 		8CA802C8213EA405001CADC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA802C7213EA405001CADC2 /* main.m */; };
+		8CA802D1213EA490001CADC2 /* YZGTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA802CF213EA490001CADC2 /* YZGTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8CA802C4213EA405001CADC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CA802C6213EA405001CADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CA802C7213EA405001CADC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CA802CF213EA490001CADC2 /* YZGTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGTimer.m; sourceTree = "<group>"; };
+		8CA802D0213EA490001CADC2 /* YZGTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGTimer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		8CA802B7213EA402001CADC2 /* YZGTimerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8CA802CE213EA490001CADC2 /* YZGTimer */,
 				8CA802B8213EA402001CADC2 /* AppDelegate.h */,
 				8CA802B9213EA402001CADC2 /* AppDelegate.m */,
 				8CA802BB213EA402001CADC2 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				8CA802C7213EA405001CADC2 /* main.m */,
 			);
 			path = YZGTimerDemo;
+			sourceTree = "<group>";
+		};
+		8CA802CE213EA490001CADC2 /* YZGTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8CA802D0213EA490001CADC2 /* YZGTimer.h */,
+				8CA802CF213EA490001CADC2 /* YZGTimer.m */,
+			);
+			path = YZGTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA802D1213EA490001CADC2 /* YZGTimer.m in Sources */,
 				8CA802BD213EA402001CADC2 /* ViewController.m in Sources */,
 				8CA802C8213EA405001CADC2 /* main.m in Sources */,
 				8CA802BA213EA402001CADC2 /* AppDelegate.m in Sources */,
@@ -284,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RM88J53727;
 				INFOPLIST_FILE = YZGTimerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RM88J53727;
 				INFOPLIST_FILE = YZGTimerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -2,8 +2,8 @@
 //  ViewController.h
 //  YZGTimerDemo
 //
-//  Created by HLL on 2018/9/4.
-//  Copyright © 2018年 阎志刚. All rights reserved.
+//  Created by yzg on 2018/9/4.
+//  Copyright © 2018年 yzg. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
